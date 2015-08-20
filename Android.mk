@@ -47,7 +47,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
-include \$(CLEAR_VARS)
+include $(CLEAR_VARS)
 LOCAL_MODULE := libril
 LOCAL_MODULE_OWNER := nubia
 LOCAL_SRC_FILES := proprietary/lib/libril.so
@@ -55,7 +55,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_CERTIFICATE := platform
-include \$(BUILD_PREBUILT)
+include $(BUILD_PREBUILT)
 
 endif
 
