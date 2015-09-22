@@ -17,6 +17,9 @@
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx40x/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/nubia/nx40x/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/nubia/nx40x/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/nubia/nx40x/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/nubia/nx40x/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
     vendor/nubia/nx40x/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/nubia/nx40x/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/nubia/nx40x/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
